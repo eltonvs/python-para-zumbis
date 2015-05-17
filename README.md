@@ -6,5 +6,6 @@ Viu algo no código que pode ser melhorado? Contribua!
 
 ##Importante
 Se você está fazendo o curso, tente fazer os exercícios sozinho antes de olhar a resolução, pois
->"A prática leva à perfeição"
+>A prática leva à perfeição
+
 >*~~Clarice Lispector~~*

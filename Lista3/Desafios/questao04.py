@@ -24,7 +24,6 @@ def fatoracao(n, j):
 print ("A decomposição do número informado é:", fatoracao(n, 2))
 
 #Sem Recursão
-n = int(input("Digite um número: "))
 fatores = []
 j = 2
 while n > 1:

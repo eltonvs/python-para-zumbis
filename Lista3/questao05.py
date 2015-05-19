@@ -11,9 +11,8 @@ n2 = int(input("Digite o segundo número: "))
 
 #Sem Recursão
 while n2 != 0:
-	aux = n2
-	n2 = n1 % n2
-	n1 = aux
+	n1, n2 = n2, n1 % n2
+	#Python <3
 print ("Sem Recursão - MDC =", n1)
 
 #Com Recursão

@@ -21,5 +21,4 @@ def mdc(x, y):
 		return x
 	else:
 		return mdc(y, x % y)
-
 print ("Com Recursão - MDC =", mdc(n1, n2))

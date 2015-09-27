@@ -11,27 +11,13 @@ e que nenhuma delas esteja em falta no caixa.
 conta = int(input("Digite o valor total da conta: "))
 pago = int(input("Digite o valor pago: "))
 troco = pago - conta
-ced50, ced20, ced10, ced5, ced2, ced1 = 0, 0, 0, 0, 0, 0
 
-while troco != 0:
-	if troco >= 50:
-		troco -= 50
-		ced50 += 1
-	elif troco >= 20:
-		troco -= 20
-		ced20 += 1
-	elif troco >= 10:
-		troco -= 10
-		ced10 += 1
-	elif troco >= 5:
-		troco -= 5
-		ced5 += 1
-	elif troco >= 2:
-		troco -= 2
-		ced2 += 1
-	elif troco >= 1:
-		troco -= 1
-		ced1 += 1
+ced50 = int(troco/50)
+ced20 = int(troco%50/20)
+ced10 = int(troco%50%20/10)
+ced5 = int(troco%50%20%10/5)
+ced2 = int(troco%50%20%10%5/2)
+ced1 = int(troco%50%20%10%5%2)
 
 print ("O troco deverá ser dado com:")
 if ced50 > 0:

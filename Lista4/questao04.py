@@ -25,7 +25,7 @@ and whatever your background, we welcome you.
 '''
 text = sub('[!@#$,.]', '', text)
 words = text.split()
-letters = list('python')
+letters = 'python'
 l = []
 
 for i in words:

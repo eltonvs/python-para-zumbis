@@ -26,9 +26,6 @@ and whatever your background, we welcome you.
 text = sub('[!@#$,.]', '', text)
 words = text.split()
 letters = 'python'
-l = []
-
-for i in words:
-	if i[0].lower() in letters or i[-1] in letters: l.append(i)
+l = list(x for x in words if x[0].lower() in letters or x[-1].lower() in letters)
 
 print(l)
